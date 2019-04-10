@@ -1,0 +1,55 @@
+
+.type-25-30 {
+
+    @color:#93A2B2;
+    .page-title{
+        .title_left {
+            width: 45%;
+            float: left;
+            display: block;
+            padding-top:15px;
+        }
+        
+        .title_right {
+            width: 55%;
+            float: left;
+            display: block;
+        }
+        .pull-right {
+            margin: 20px 0 0 0;
+        }
+        .input-group {
+            margin-bottom: 10px;
+        }
+        .form-control {
+            border-radius: 25px 0 0 25px;
+            padding-left: 20px;
+            border: 1px solid rgba(221,226,232,.49);
+        }
+        .input-group-btn button {
+            border-radius: 0 25px 25px 0; 
+            border: 1px solid rgba(221,226,232,.49);
+            border-left: 0;
+            color: @color;       
+        }
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+  .type-25-30 {
+
+        .page-title{
+            .title_left  img{
+                margin:auto;
+                position:absolute;
+                top:-40; left:0; right:0; bottom:0;
+            }
+            .title_right {
+                padding-top: 50px;
+            }
+        }
+
+    }
+}
+

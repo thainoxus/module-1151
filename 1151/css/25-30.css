@@ -1,0 +1,41 @@
+.type-25-30 .page-title .title_left {
+  width: 45%;
+  float: left;
+  display: block;
+  padding-top: 15px;
+}
+.type-25-30 .page-title .title_right {
+  width: 55%;
+  float: left;
+  display: block;
+}
+.type-25-30 .page-title .pull-right {
+  margin: 20px 0 0 0;
+}
+.type-25-30 .page-title .input-group {
+  margin-bottom: 10px;
+}
+.type-25-30 .page-title .form-control {
+  border-radius: 25px 0 0 25px;
+  padding-left: 20px;
+  border: 1px solid rgba(221,226,232,0.49);
+}
+.type-25-30 .page-title .input-group-btn button {
+  border-radius: 0 25px 25px 0;
+  border: 1px solid rgba(221,226,232,0.49);
+  border-left: 0;
+  color: #93A2B2;
+}
+@media screen and (max-width: 600px) {
+  .type-25-30 .page-title .title_left  img {
+    margin: auto;
+    position: absolute;
+    top: -40;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .type-25-30 .page-title .title_right {
+    padding-top: 50px;
+  }
+}
